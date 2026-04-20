@@ -35,10 +35,45 @@ with st.sidebar:
                  index=None
                  )
     
-    if selected_difficulty:
-        st.success(f"Selected difficulty: {selected_difficulty}")
-        
-    else:
-        st.error("Please select a difficulty level.")
     
-    st.button("Generate Summary and Quiz", key="generate", type="primary")
+    pressed = st.button("Generate Summary and Quiz", key="generate", type="primary")
+    
+    
+    
+    
+#front section
+if pressed:
+    if not uploaded_images:
+        st.error("Please upload at least one image to generate summary and quiz.")
+    elif not selected_difficulty:
+        st.error("Please select a difficulty level to generate summary and quiz.")
+        
+    if uploaded_images and selected_difficulty:
+        
+        #note summary
+        
+        with st.container(border=True):
+            st.subheader("Your Note")
+            
+            #this portion will be replaced by API call
+            
+            st.text("Note summary will be displayed here")
+            
+        
+        #audio summary
+        
+        with st.container(border=True):
+            st.subheader("Audio Summary")
+            
+            #this portion will be replaced by API call
+            
+            st.text("Audio summary will be displayed here")
+        
+        #quiz generation
+        
+        with st.container(border=True):
+            st.subheader(f"Quiz Questions ({selected_difficulty})")
+            
+            #this portion will be replaced by API call
+            
+            st.text("Quiz questions will be displayed here")
