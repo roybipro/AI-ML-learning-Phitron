@@ -16,7 +16,11 @@ with st.sidebar:
                                       accept_multiple_files=True,
                                       type=["jpg", "jpeg", "png"]
                                       )
-    if uploaded_images:
+    
+    pil_images = [Image.open(image) for image in uploaded_images]
+    
+    
+    if pil_images:
         if len(uploaded_images) > 3:
             st.error("Please upload a maximum of 3 images.")
         else:
@@ -57,8 +61,8 @@ if pressed:
             st.subheader("Your Note")
             
             #this portion will be replaced by API call
-            genarated_notes = generate_note_summary(uploaded_images)
-            st.text(genarated_notes)
+            genarated_notes = generate_note_summary(pil_images)
+            st.markdown(genarated_notes)
             
         
         #audio summary

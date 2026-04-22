@@ -20,7 +20,7 @@ def generate_note_summary(images):
     make sure to markdown to deffrentiate diffrent sections"""
     response = client.models.generate_content(
         model = "gemini-3-flash-preview",
-        contenes = [images,prompt]
+        contents = [images,prompt]
     )
     
     return response.text
