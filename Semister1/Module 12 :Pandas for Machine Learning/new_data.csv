@@ -1,0 +1,21 @@
+,StudentID,FullName,Data Structure Marks,Algorithm Marks,Python Marks,CompletionStatus,EnrollmentDate,FinishedDate,Instructor,Location,Country,Total Marks,Data Structure Grade,First Name
+0,PH0001,Alif Rahman,85.5,88.0,88.0,Completed,2024-09-01,2024-12-23,Ms. Salma,Khulna,Bangladesh,261.5,A+,Alif
+1,PH0002,Fatima Akhter,66.5,,,In Progress,2024-08-11,2024-11-07,Mr. Karim,Dhaka,Bangladesh,,B,Fatima
+2,PH0003,Imran Hossain,78.0,78.0,76.0,Completed,2024-05-08,2024-08-08,Ms. Salma,Dhaka,Bangladesh,232.0,A,Imran
+3,PH0004,Jannatul Ferdous,79.0,44.0,44.0,Completed,2024-07-05,2024-09-23,Mr. Karim,Khulna,Bangladesh,167.0,A,Jannatul
+4,PH0005,Kamal Uddin,65.0,98.0,98.0,Completed,2024-02-01,2024-04-17,Mr. David,Sylhet,Bangladesh,261.0,B,Kamal
+5,PH0006,Laila Begum,90.0,13.0,13.0,In Progress,2024-09-07,2024-12-31,Mr. David,Khulna,Bangladesh,116.0,A+,Laila
+6,PH0007,Mahmudul Hasan,85.0,98.0,33.0,Completed,2024-06-07,2024-07-20,Mr. David,Chattogram,Bangladesh,216.0,A+,Mahmudul
+7,PH0008,Nadia Islam,,,98.0,In Progress,2024-03-22,2024-05-01,Ms. Salma,Khulna,Bangladesh,,F,Nadia
+8,PH0009,Omar Faruq,98.0,33.0,33.0,Completed,2024-02-12,2024-06-08,Mr. Karim,Dhaka,Bangladesh,164.0,A+,Omar
+9,PH0010,Priya Sharma,99.0,8.0,8.0,Completed,2024-06-19,2024-08-19,Mr. David,Dhaka,Bangladesh,115.0,A+,Priya
+10,PH0011,Rahim Sheikh,66.0,76.0,,Completed,2024-03-14,2024-06-11,Mr. Karim,Sylhet,Bangladesh,,B,Rahim
+11,PH0012,Sadia Chowdhury,78.0,57.0,57.0,In Progress,2024-08-04,2024-10-25,Mr. Karim,Sylhet,Bangladesh,192.0,A,Sadia
+12,PH0013,Tanvir Ahmed,75.0,,,Completed,2024-06-07,2024-08-03,Mr. David,Dhaka,Bangladesh,,A,Tanvir
+13,PH0014,Urmi Akter,98.0,78.0,88.0,Completed,2024-01-04,2024-03-23,Mr. David,Sylhet,Bangladesh,264.0,A+,Urmi
+14,PH0015,Wahiduzzaman,37.0,67.0,67.0,Completed,2024-02-22,2024-05-16,Mr. David,Rajshahi,Bangladesh,171.0,F,Wahiduzzaman
+15,PH0016,Ziaur Rahman,34.0,88.0,91.0,Completed,2024-03-23,2024-06-21,Ms. Salma,Rajshahi,Bangladesh,213.0,F,Ziaur
+16,PH0017,Afsana Mimi,27.0,,,Completed,2024-01-18,2024-03-16,Mr. David,Khulna,Bangladesh,,F,Afsana
+17,PH0018,Babul Ahmed,,78.0,78.0,Completed,2024-06-23,2024-09-20,Mr. David,Dhaka,Bangladesh,,F,Babul
+18,PH0019,Faria Rahman,55.0,77.0,77.0,In Progress,2024-04-19,2024-08-17,Mr. Karim,Sylhet,Bangladesh,209.0,C,Faria
+19,PH0020,Tariq Hasan,65.0,87.0,87.0,Completed,2024-07-21,2024-10-11,Mr. Karim,Khulna,Bangladesh,239.0,B,Tariq
